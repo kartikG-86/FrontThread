@@ -1,8 +1,11 @@
 import React from "react";
 import Sidebar from "./Sidebar";
 import PostDisplay from "./PostDisplay";
+import { useLocation} from "react-router-dom";
+import Profile from "./Profile";
 
 const MainPage = () => {
+    const location = useLocation()
     return <>
         <div className="row main-page">
             <div className="col-1" style={{height:'100vh'}} >
@@ -10,7 +13,8 @@ const MainPage = () => {
             </div>
             <div className="col-10">
                 <div className="d-flex flex-row justify-content-center" >
-                    <PostDisplay />
+                    {location.pathname.includes('profile') && <Profile />}
+                    {location.pathname.includes('threads') && <PostDisplay />}
                 </div>
             </div>
             <div className="col-1" style={{height:'100vh'}}>

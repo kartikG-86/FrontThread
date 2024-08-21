@@ -45,7 +45,7 @@ const NewThread = ({ threads, setThreads }) => {
                         {threads.map((thread) => (
                             <div key={thread.id} className="d-flex flex-row mt-3">
                                 <div>
-                                    <img className="profile-image" src="https://scontent.cdninstagram.com/v/t51.2885-19/373203005_780198887447897_7768777852907889655_n.jpg?stp=dst-jpg_s150x150&_nc_cat=104&ccb=1-7&_nc_sid=07cfa3&_nc_ohc=38-riMDWIcQQ7kNvgHYBRgf&_nc_ht=scontent.cdninstagram.com&oh=00_AYCjXI3x0GIMgXxGf4giY3eNRjLCJ9FDVctoOc-NjdN8zQ&oe=66C4C0FE" alt="profileImage" />
+                                    <img className="profile-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi8Y-G2pGAkummMURyyFLlIjvfii6A_fVBFA&s" alt="profileImage" />
                                 </div>
                                 <div className="d-flex flex-column mx-2">
                                     <div className="username d-flex flex-row justify-content-between">
@@ -80,7 +80,7 @@ const NewThread = ({ threads, setThreads }) => {
 
                         <div className="add-new-thread d-flex flex-row">
                             <div>
-                                <img src="https://scontent.cdninstagram.com/v/t51.2885-19/373203005_780198887447897_7768777852907889655_n.jpg?stp=dst-jpg_s150x150&_nc_cat=104&ccb=1-7&_nc_sid=07cfa3&_nc_ohc=38-riMDWIcQQ7kNvgHYBRgf&_nc_ht=scontent.cdninstagram.com&oh=00_AYCjXI3x0GIMgXxGf4giY3eNRjLCJ9FDVctoOc-NjdN8zQ&oe=66C4C0FE" alt="profileImage" />
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi8Y-G2pGAkummMURyyFLlIjvfii6A_fVBFA&s" alt="profileImage" />
                             </div>
                             <div className="d-flex flex-column mx-2">
                                 <h6 className="ms-2 mt-1" onClick={addNewThread}>Add to thread</h6>

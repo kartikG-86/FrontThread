@@ -15,7 +15,7 @@ const FollowUser = ({ user }) => {
                         </div>
                     </div>
                 </div>
-                <div >
+                <div className="text-truncate follow-user-bio">
                     You know Who I am <br />
                     Tributo Sr. Stark/Ironman/RDJ <br />
                     Próximos cosplays:Chaplin , Agente shield, Dr. Doolittle

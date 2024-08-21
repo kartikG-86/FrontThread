@@ -40,7 +40,7 @@ const Post = ({ post }) => {
                         <span>{post.comments}</span>
                     </div>
                     <div className="me-4">
-                        <i class="bi bi-share me-1"></i>
+                        <i class="bi bi-repeat me-1"></i>
                         <span>{post.repost}</span>
                     </div>
                     <div className="me-4">
