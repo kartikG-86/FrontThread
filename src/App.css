@@ -81,6 +81,25 @@
 
 }
 
+.section-heading{
+  width: 38.375rem;
+  height: 3vh;
+  padding-top: 2rem;
+}
+
+.section-heading a{
+  font-weight: 600;
+}
+
+.section-heading-icon{
+  display: inline-block;
+  border: 1px solid rgba(75, 75, 75, 0.179);
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 0.8rem;
+  margin-left: 0.4rem;
+}
 .post-display{
   width: 38.375rem;
   height: 97vh;
@@ -218,15 +237,18 @@
   border-radius: 0.9rem;
 }
 
-.dropdown-menu li{
+.dropdown-menu div{
   margin: 0.8rem 0.5rem;
   font-weight: 500;
-  padding: 0.4rem;
-  width: 10rem;
+  padding: 0.7rem;
+  width: 90%;
   cursor: pointer;
 }
+.dropdown-menu div i{
+font-size: 1.2rem;
+}
 
-.dropdown-menu li:hover{
+.dropdown-menu div:hover{
   background-color: rgba(128, 128, 128, 0.107);
   border-radius: 0.7rem;
 }
@@ -490,6 +512,7 @@ color: grey;
 
 .edit-profile button{
   width: 100%;
+  font-weight: 600;
   border: 1px solid rgba(75, 75, 75, 0.179);
 }
 .edit-profile button:hover{
@@ -611,3 +634,12 @@ color: grey;
   border: none;
   border-radius: 0;
 }
+
+.edit-info-btns button{
+  border: none;
+}
+
+.edit-info-btns button:hover{
+  border: none;
+}
+
